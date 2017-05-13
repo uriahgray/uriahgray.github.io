@@ -21,6 +21,19 @@ h1 {
   text-align: center;
 }
 
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom:0px;
+  background-color: black;
+  color:#fff;
+  text-align: center;
+  width: 100%;
+  z-index: 9;
+  height:50px;
+  line-height: 50px;
+}
+
 a {
   color:blue;
   text-decoration: none;
