@@ -11,5 +11,38 @@
 /* Start here */
 
 body {
-background-color: red;
+  font-family: arial;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: normal;
+  text-align: center;
+}
+
+a {
+  color:blue;
+  text-decoration: none;
+}
+
+.left_iframe {
+width: 50%;
+position: fixed;
+top: 0px;
+left: 0px;
+height: 100vh;
+}
+
+.right_iframe {
+  width: 50%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+}
+
+iframe {
+  height:100%;
+  width:100%;
 }
