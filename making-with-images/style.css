@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "anthony";
+    src: url("anthony.woff");
+}
+
+body {
+    background-color: #00b140;
+    font-family: "anthony";
+    margin:0;
+    padding:0;
+}
+
+div.random {
+    transition:0.5s;
+}
+
+div.layout {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.headline {
+    
+}
+
+div.headline.a {
+    font-size:400px;
+    line-height: 400px;
+}
+
+div.headline.b {
+    font-size:200px;
+    line-height: 250px;
+}
+
+div.headline.c {
+    font-size:100px;
+    line-height: 110px;
+}
+
+div.headline.one {
+    background-color: black;
+}
+
+div.headline.two {
+    background-color: white;
+}
+
+div.headline.three {
+    background-color: #00b140;
+}
+
+div.headline.x {
+    color: black;
+}
+
+div.headline.y {
+    color: black;
+}
+
+div.headline.z {
+    color: #00b140;
+}
+
+div.dot {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+div.dot.a {
+    display: none;
+}
+
+div.dot.b {
+    display: none;
+}
+
+div.dot.c {
+    display: block;
+}
+
+div.detail {
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+div.col {
+    width: 25%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.intro {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+div.introcol {
+    padding:20px;
+    width: calc(50% - 40px);
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+div.block {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:200px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+div.block.a {
+    background-color: cyan;
+    color:brown;
+}
+
+div.block.b {
+    background-color: brown;
+    color:#00b140;
+}
+
+div.block.c {
+    background-color: yellow;
+    color:#00b140;
+}
