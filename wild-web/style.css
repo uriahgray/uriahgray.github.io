@@ -1,7 +1,7 @@
 /* reset project */
 
 body {
-    margin:0px;
+    margin:10px;
     background-color:aliceblue;
 }
 
@@ -42,6 +42,14 @@ div.mono {
     font-family: 'Courier New', Courier, monospace;
 }
 
+div.bold {
+    font-weight: bold;
+}
+
+div.italic {
+    font-style: italic;
+}
+
 /* colors */
 
 div.textblue {
@@ -50,6 +58,10 @@ div.textblue {
 
 div.textred {
     color:red;
+}
+
+div.textbrown {
+    color:brown;
 }
 
 div.bgpink {
@@ -100,4 +112,49 @@ div.width25 {
 
 div.width20 {
     width: 20%;
+}
+
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.textcenter {
+    text-align: center;
+}
+
+
+
+div.intro {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+div.title {
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+div.footnote {
+    margin-left:auto;
+    margin-bottom: 50px;
+}
+
+div.image {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+div.columns {
+    margin-top: 100px;
+}
+
+div.overlay {
+    position:fixed;
+    width:500px;
+    padding:20px;
+    top:400px;
+    left:700px;
 }
